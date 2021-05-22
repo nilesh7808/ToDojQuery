@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    padding: 10px 8px;
+    color: #f4f4fa;
+    background-color: #014f86;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(to right, #212529, #96a3af);
+}
+
+nav {
+    background-image: linear-gradient(to right, #212529, #96a3af);
+    height: 50px;
+    box-shadow: 0px 0px 2px 3px #4a4d50;
+}
+
+nav i {
+    padding: 5px 5px;
+    color: #f4f4fa;
+    margin: 5px 5px 5px 5px;
+    font-size: 1.6rem;
+    margin-left: 15px;
+}
+
+#todos {
+    display: inline-block;
+    margin-left: 15px;
+    font-family: 'Roboto', sans-serif;
+    cursor: default;
+}
+
+#container {
+    border: 1px solid #ccc;
+    width: 360px;
+    margin: 60px auto;
+}
+
+ul {
+    list-style: none;
+}
+
+span {
+    cursor: pointer;
+    display: inline-block;
+    padding: 5px;
+}
+
+.completed {
+    color: gray;
+    text-decoration: line-through;
+    cursor: pointer;
+}
+
+input {
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 18px;
+    padding: 10px 5px;
+}
+
+input:focus {
+    outline: none;
+}
+
+#plus {
+    float: right;
+    margin-right: 40px;
+}
+
+li {
+    cursor: pointer;
+    border: 1px solid green;
+    font-size: 20px;
+    padding: 10px 10px;
+    margin: 8px;
+    border-radius: 5px;
+}
+
+li:nth-of-type(odd) {
+    background-color: #f8961e;
+}
+
+li:nth-of-type(even) {
+    background-color: #edf2f4;
+}
